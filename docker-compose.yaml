@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: vikasupadhyay01/node-todo-app-cicd:latest
+    ports:
+      - "8081:8081"
